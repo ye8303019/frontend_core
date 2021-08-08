@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../scope/example1.js"],"names":["b","foo","console","log"],"mappings":";;AAAA,IAAIA,IAAI,KAAR;AACA,SAASC,GAAT,GAAc;AACVC,YAAQC,GAAR,CAAYH,CAAZ,EADU,CACK;AAClB;AACDC","file":"example1.js","sourcesContent":["var b = 'bar'\r\nfunction foo(){\r\n    console.log(b) //在 foo 的作用域中没有找变量 b，所以向外扩大作用域查找，在全局下找到 b\r\n}\r\nfoo()"]}
